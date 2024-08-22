@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style_n-1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+            <div class="logo">Zahir Portfolio</div>
+            <div class="menu-toggle">&#9776;</div>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="container">
+            <h1>Hi, I'm Muhammad Zahir As-Sajjad</h1>
+            <h3>A Professional Full-Stack Developer</h3>
+            <a href="#projects" class="btn">Explore My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate developer with a love for creating dynamic, responsive websites. With experience
+                        in both front-end and back-end technologies, I strive to build seamless and user-friendly web
+                        applications.</p>
+                    <p>Let's build something amazing together!</p>
+                </div>
+                <img src="photo_wisuda-removebg-preview.png" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2>Education</h2>
+        <div class="education-container">
+            <div class="education-item">
+                <h3>SDIT Al-Muzzammil</h3>
+                <p>from 2016-2021</p>
+                <p>Focus: in basic lessons</p>
+            </div>
+            <div class="education-item">
+                <h3>POMPES Zaid Bin Tsabit</h3>
+                <p>from 2021-2022</p>
+                <p>Focus: in Arabic and Tahfidz</p>
+            </div>
+            <div class="education-item">
+                <h3>PPTT IBNU MUBAAROK</h3>
+                <p>from 2022-2024</p>
+                <p>Focus: in Arabic and Tahfidz</p>
+            </div>
+            <div class="education-item">
+                <h3>IDN Boarding School</h3>
+                <p>from 2024-2026</p>
+                <p>Focus: in IT lessons</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-item" onclick="openModal('project1')">
+                    <img src="Screenshot 2024-08-20 135403.png" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Portfolio's</h3>
+                        <p>My project is the portfolio i am currently working on.</p>
+                    </div>
+                </div>
+                <div class="project-item" onclick="openModal('project2')">
+                    <img src="Screenshot 2024-08-21 144324.png" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Wiki Surakarta City </h3>
+                        <p>I made wikipedia surakarta in HTML and CSS.</p>
+                    </div>
+                </div>
+                <div class="project-item" onclick="openModal('project3')">
+                    <img src="Screenshot 2024-08-21 144755.png" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Web Coding</h3>
+                        <p>I create web coding and i am inspired by dicoding.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <h4>HTML5</h4>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <h4>CSS3</h4>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js"></i>
+                    <h4>JavaScript</h4>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-react"></i>
+                    <h4>React</h4>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-node"></i>
+                    <h4>Node.js</h4>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-python"></i>
+                    <h4>Python</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h4>HTML</h4>
+                <div class="skill-bar">
+                    <div class="skill-progress html">90%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4>CSS</h4>
+                <div class="skill-bar">
+                    <div class="skill-progress css">85%</div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h4>React</h4>
+                <div class="skill-bar">
+                    <div class="skill-progress react">60%</div>
+                </div>
+            </div>
+            <div class="skill">
+                <h4>Node.js</h4>
+                <div class="skill-bar">
+                    <div class="skill-progress nodejs">50%</div>
+                </div>
+                        <div class="skill">
+                <h4>JavaScript</h4>
+                <div class="skill-bar">
+                    <div class="skill-progress javascript">30%</div>
+                </div>
+            </div>    
+            <div class="skill">
+                <h4>Python</h4>
+                <div class="skill-bar">
+                    <div class="skill-progress python">20%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Muhammad Zahir As-Sajjad. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Structure -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+
+    <script src="script_n-2.js"></script>
+</body>
+
+</html>
